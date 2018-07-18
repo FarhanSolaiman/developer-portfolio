@@ -265,10 +265,17 @@ align-items: center;
 	.box1 {
 	height: 89%;
 	width: 80%;
+	position: relative;
 }
 
+	#navbarNav{
+		position: absolute;
+		z-index: 1;
+		top: 100%;
+	}
+
 	.box1 > h1 {
-	padding-top: 7%;
+	padding-top: 20%;
 	font-size: 48px;
 }
 
