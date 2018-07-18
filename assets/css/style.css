@@ -269,7 +269,11 @@ align-items: center;
 
 	.box1 > h1 {
 	padding-top: 7%;
-	font-size: 54px;
+	font-size: 48px;
+}
+
+	.box1 > p {
+	font-size:15px; 
 }
 
 	.box3 {
