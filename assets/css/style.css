@@ -11,6 +11,7 @@ html, body{
 }
 
 .social {
+	width: 200px;
   position: fixed;
   top: 50%;
   transform: translate(0%,-50%);
@@ -135,6 +136,7 @@ html, body{
 	text-shadow: 2px 2px black;
 	margin-bottom: 5%;
 }
+
 
 .nav-link {
 	font-family: 'Open Sans', sans-serif;
@@ -318,6 +320,20 @@ align-items: center;
 	width: 40%;
 }
 
+	#navbarNav{
+		position: absolute;
+		z-index: 1;
+		top: 100%;
+		left: 0;
+		border-radius: 10px;
+		padding-left: 30px;
+	}
+
+	.project {
+		background: rgb(0,0,0,0.4);
+		width: 100%;
+	}
+
 	.first {
 	height: 70vh;
 }
@@ -363,6 +379,9 @@ align-items: center;
 		position: absolute;
 		z-index: 1;
 		top: 100%;
+		left: 0;
+		border-radius: 10px;
+		padding-left: 15px;
 	}
 
 	.box1 > h1 {
@@ -407,4 +426,21 @@ align-items: center;
  	.box2 {
 	width: 80%;
 }
+
+	.project {
+		background: rgb(0,0,0,0.4);
+		width: 100%;
+	}
+
+	.social ul {
+  padding: 10px;
+}
+
+.social ul li {
+  margin: 7px;
+}
+
+.social {
+	width: 10px;
+
 }
