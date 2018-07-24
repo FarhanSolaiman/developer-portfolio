@@ -100,6 +100,7 @@ html, body{
 
 .nav-link{
 	font-size: 18px;
+	cursor: pointer;
 }
 
 .first {
@@ -171,7 +172,7 @@ html, body{
 align-items: center;
 }
 
-.pic > img {
+.pic > a > img {
 	width: 100%;
 }
 
@@ -185,7 +186,7 @@ align-items: center;
 	align-items: flex-start;
 }
 
-.desc > h1 {
+.desc > a > h1 {
 	font-family: 'Raleway', sans-serif;
 }
 
