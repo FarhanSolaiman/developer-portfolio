@@ -1,5 +1,5 @@
 		$(window).scroll(function() {
-		    if ($(this).scrollTop() >= 768) {        // If page is scrolled more than 50px
+		    if ($(this).scrollTop() >= 768) {      
 		        $('#return-to-top').fadeIn(400);    // Fade in the arrow
 		    } else {
 		        $('#return-to-top').fadeOut(10);   // Else fade out the arrow
@@ -10,3 +10,5 @@
 		        scrollTop : 0                       // Scroll to top of body
 		    }, 500);
 		});
+
+		
