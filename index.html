@@ -6,14 +6,15 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="csrf-token" content="{{ csrf_token() }}">
 
 		<title>Farhan Solaiman</title>
 
 		<!-- external css -->
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link rel="stylesheet" type="text/css" href="/css/style.css">
 
 		<!-- external bootstrap -->
-		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
 
 		<!-- googlefonts -->
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:600|Raleway:900" rel="stylesheet">
@@ -21,9 +22,10 @@
 
 		<!-- fontawesome -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+		<link rel="stylesheet" href="/css/icofont.css">
 
 		<!-- favicon -->
-		<link rel="icon" href="logo.png" type="image/x-icon">
+		<link rel="icon" href="/images/logo.png" type="image/x-icon">
 
 	</head>
 
@@ -33,8 +35,8 @@
 
 		<nav class="social">
 	        <ul>
-	            <li><a href="https://kalibrr.com/referral/signup?ref=referrals-social-share-copy-1656425&ref_uid=1656425&ref_src=cp">Kalibrr <img src="assets/images/kalibrr.png"></a></li>
-	            <li><a href="https://www.linkedin.com/in/hanngbayan">LinkedIn <i class="fab fa-linkedin"></i></a></li>
+	            <li><a href="https://kalibrr.com/referral/signup?ref=referrals-social-share-copy-1656425&ref_uid=1656425&ref_src=cp" target="_blank">Kalibrr <img src="/images/kalibrr.png"></a></li>
+	            <li><a href="https://www.linkedin.com/in/hanngbayan" target="_blank">LinkedIn <i class="fab fa-linkedin"></i></a></li>
 	        </ul>
 	    </nav> <!-- end of nav -->
 
@@ -42,7 +44,7 @@
 		<div class="container-fluid" id="first">
 			<nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
 				<div class="container-fluid ml-5">
-					<img src="assets/images/top.png" id="top">
+					<img src="/images/top.png" id="top">
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
 						<span class="navbar-toggler-icon"></span>
 					</button>
@@ -64,7 +66,7 @@
 
 			<div class="box1">
 				<h1>Full-Stack Web Developer</h1>
-				<p>All the way from Quezon City, PH. A licensed Electronics Engineer with a drive and passion for coding. I have a wide variety of skills ranging from HTML + CSS + Javascript to JQuery/AJAX + MySQL + PHP. I also have experience in using the Laravel Framework. Here is a copy of my recent resume. If you are interested, hit me up an email or call me.</p>
+				<p>All the way from Quezon City, PH. A licensed Electronics Engineer with a drive and passion for coding. I have a variety of Full-Stack Web Developer skills ranging from HTML + CSS + Javascript to JQuery/AJAX + MySQL + PHP. I also have experience in using the Laravel Framework. Here is a copy of my recent resume. If you are interested, hit me up an email or call me.</p>
 				<a class="btn btn-lg btn-danger" href="https://drive.google.com/file/d/18N8oU4mG9_a2yrlb28eTa57XluGNcOjA/view?usp=sharing" role="button" target="_blank">Resume  <i class="fas fa-angle-right"></i></a>
 			</div>
 		</div> <!-- end of first -->
@@ -78,37 +80,37 @@
 				<div class="cont">
 					<div class="row cont1">
 						<div class="col-lg-4 pic">
-							<a href="https://social-jobseeker.000webhostapp.com/" target="_blank"><img src="assets/images/social-jobseeker.png"></a>
+							<a href="https://socialjobseeker.000webhostapp.com/" target="_blank"><img src="/images/social-jobseeker.png"></a>
 						</div>
 						<div class="col-lg-8 desc">
 							<h1>Social-Jobseeker</h1>
-							<p>A social media platform where professionals not only interact with another but also find and offer jobs in the internet. This website features my Full-Stack Developer skills.</p>
-							<a class="btn btn-lg btn-success" href="https://social-jobseeker.000webhostapp.com/" role="button" target="_blank">Enter <i class="fas fa-angle-right"></i></a>
+							<p>A social media platform where professionals not only interact with another but also find and offer jobs in the internet. This website features my Full-Stack Developer skills as well as my knowledge in using the Laravel Framework.</p>
+							<a class="btn btn-lg btn-success" href="https://socialjobseeker.000webhostapp.com/" role="button" target="_blank">Enter <i class="fas fa-angle-right"></i></a>
 						</div>
 					</div>
 				</div> <!-- end of capstone 3 -->
 				
-				<img src="assets/images/break.png">
+				<img src="/images/break.png">
 
 				<div class="cont">
 					<div class="row cont1">
 						<div class="col-lg-4 pic">
-							<a href="https://Bowflexer.000webhostapp.com/index.php" target="_blank"><img src="assets/images/bowflexer.png"></a>
+							<a href="https://Bowflexer.000webhostapp.com/index.php" target="_blank"><img src="/images/bowflexer.png"></a>
 						</div>
 						<div class="col-lg-8 desc">
 							<h1>Bowflexer Archery Equipment and Apparel</h1>
-							<p>An archery shop based on the popular brand "Easton". This website features my Back-End Developer skills such as AJAX, MySQL, and PHP. As well as my knowledge in using and Paypal Sandbox API.</p>
+							<p>An e-commerce archery shop based on the popular brand "Easton". This website features my Back-End Developer skills such as AJAX, MySQL, and PHP. As well as my knowledge in using and Paypal Sandbox API.</p>
 							<a class="btn btn-lg btn-success" href="https://Bowflexer.000webhostapp.com/index.php" role="button" target="_blank">Enter <i class="fas fa-angle-right"></i></a>
 						</div>
 					</div>
 				</div> <!-- end of project 1 -->
 
-				<img src="assets/images/break.png">
+				<img src="/images/break.png">
 
 				<div class="cont">
 					<div class="row cont1">
 						<div class="col-lg-4 pic">
-							<a href="https://farhansolaiman.github.io/Anteiku-Coffee-Shop/index.html" target="_blank"><img src="assets/images/port1.png"></a>
+							<a href="https://farhansolaiman.github.io/Anteiku-Coffee-Shop/index.html" target="_blank"><img src="/images/port1.png"></a>
 						</div>
 						<div class="col-lg-8 desc">
 							<h1>Anteiku Coffee Shop</h1>
@@ -118,12 +120,12 @@
 					</div>
 				</div> <!-- end of project 2 -->
 
-				<img src="assets/images/break.png">
+				<img src="/images/break.png">
 
 				<div class="cont">
 					<div class="row cont1">
 						<div class="col-lg-4 pic">
-							<a href="https://farhansolaiman.github.io/Bold-and-Black-Landing/index.html" target="_blank"><img src="assets/images/tan.png"></a>
+							<a href="https://farhansolaiman.github.io/Bold-and-Black-Landing/index.html" target="_blank"><img src="/images/tan.png"></a>
 						</div>
 						<div class="col-lg-8 desc">
 							<h1>Tan Nan Wine Bar and Kitchen</h1>
@@ -133,22 +135,7 @@
 					</div>
 				</div> <!-- end of project 3 -->
 
-				<img src="assets/images/break.png">
-
-				<div class="cont">
-					<div class="row cont1">
-						<div class="col-lg-4 pic">
-							<a href="https://farhansolaiman.github.io/test-portfolio/" target="_blank"><img src="assets/images/webdev.png"></a>
-						</div>
-						<div class="col-lg-8 desc">
-							<h1>My Web Developer Portfolio v. 01</h1>
-							<p>The very first thing that we did in Tuitt Inc. Thanks to this that I began to be very fascinated with coding.</p>
-							<a class="btn btn-lg btn-success" href="https://farhansolaiman.github.io/developer-protfolio/index.html" role="button" target="_blank">Enter <i class="fas fa-angle-right"></i></a>
-						</div>
-					</div>
-				</div> <!-- end of project 4 -->
-
-				<img src="assets/images/break.png" id="skills">
+				<img src="/images/break.png" id="skills">
 
 				<div class="box3">
 					<h1>MY WEB DEVELOPER SKILLS</h1>
@@ -215,7 +202,7 @@
 								</div>
 							</div>
 							<div class="col">
-								<i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i><i class="fas fa-bold"></i><i class="fab fa-sass"></i><i class="fab fa-php"></i><i class="fab fa-js-square"></i><img src="assets/images/mysql.png"><i class="fab fa-laravel"></i>
+								<i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i><i class="icofont-bootstrap" id="bootstrap"></i><i class="fab fa-sass"></i><i class="fab fa-php"></i><i class="fab fa-js-square"></i><img src="/images/mysql.png"><i class="fab fa-laravel"></i>
 							</div>
 						</div>
 					</div>
@@ -229,27 +216,26 @@
 				</div> <!-- end of map -->
 
 				<div class="contact mb-3">
-					<img src="assets/images/me.jpg">
+					<img src="/images/me.jpg">
 					<h2>CONTACT ME</h2>
-					<form action="mailto:farhant.solaiman@gmail.com" method="post" enctype="text/plain">
+					<p id="success"></p>
 						<div class="row">
 						    <div class="col-lg-4 col-md-4 col-12">
-						      	<input type="text" class="form-control" placeholder="Name"><br>
+						      	<input type="text" class="form-control" id="name" placeholder="Name*"><br>
 						    </div>
 						    <div class="col-lg-4 col-md-4 col-12">
-						      	<input type="email" class="form-control" placeholder="Email"><br>
+						      	<input type="email" class="form-control" id="email" placeholder="Email*"><br>
 						    </div>
 						    <div class="col-lg-4 col-md-4 col-12">
-						      	<input type="number" class="form-control" placeholder="Number">
+						      	<input type="number" class="form-control" id="number" placeholder="Number">
 						    </div>
 						</div>
 						<br>
-						<textarea class="form-control" placeholder="Message"></textarea>
+						<textarea class="form-control" id="message" placeholder="Message*"></textarea>
 						<br>
 						<div class="d-flex justify-content-end">
-						<a href="#" class="btn btn-danger text-light but" data-toggle="modal" data-target="#modalsubmit" onclick="window.location.href='#'">Send</a>
+						<button type="button" id="sendbtn" class="btn btn-success">Send</button>
 						</div>
-					</form>
 				</div> <!-- end of contact -->
 			</div>
 		</div> <!-- end of second -->
@@ -260,37 +246,16 @@
 			</div>
 		</footer> <!-- end of footer -->
 
-		<!-- modal submit -->
-		<div class="modal fade" id="modalsubmit" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		  <div class="modal-dialog" role="document">
-		    <div class="modal-content">
-		      <div class="modal-header">
-		        <h5 class="modal-title" id="exampleModalLabel">Sorry</h5>
-		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-		          <span aria-hidden="true">&times;</span>
-		        </button>
-		      </div>
-		      <div class="modal-body">
-		        I cannot recieve any of your messages right now.
-		      </div>
-		      <div class="modal-footer">
-		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-		      </div>
-		    </div>
-		  </div>
-		</div>
-
-
 
 	    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	    <!-- external javascript -->
-	    <script type="text/javascript" src="assets/javascript/bootstrap.min.js"></script>
+	    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
 
 	    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
-	    <script src="assets/javascript/style.js"></script>
+	    <script src="/js/style.js"></script>
 	
 	</body>
 </html>
