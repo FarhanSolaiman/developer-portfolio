@@ -1,9 +1,3 @@
-$.ajaxSetup({
-  headers: {
-    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-  }
-});
-
 $(window).scroll(function() {
 	if ($(this).scrollTop() >= 768) {      
         $('#return-to-top').fadeIn(400);    // Fade in the arrow
@@ -48,5 +42,4 @@ $(document).on('click','#sendbtn', function () {
 		$('#message').val('');
 			}	
 		})
-	}
 });
