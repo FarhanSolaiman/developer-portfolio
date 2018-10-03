@@ -40,6 +40,5 @@ $(document).on('click','#sendbtn', function () {
 		$('#email').val('');
 		$('#number').val('');
 		$('#message').val('');
-			}	
-		})
+	}
 });
